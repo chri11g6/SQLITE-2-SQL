@@ -87,8 +87,8 @@ class ExportTable:
                 else:
                     sql = sql + listData
                 
-                # Er det den sidet col?
-                # Hvis ja skal den ikke sætte det ,
+                # Is that the last col?
+                # If so, it should not put it ,
                 if (index != len(colType) - 1):
                     sql = sql + ","
 
